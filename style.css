@@ -94,6 +94,27 @@ header nav ul li .activ i{
     color:var(--themeColor);
 }
 
+
+/* CV Download */
+
+.cv{
+    position:absolute;
+    width:200px;
+    height: 46px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: var(--iconBGColor);
+    color: rgb(221, 17, 17);
+    font-size: 18px;
+    margin:5%;
+    font-weight: bold;
+}
+
+.cv:hover{
+    background-color: rgb(237, 72, 72);
+    color: white;
+}
 /* Footer */
 header .footer{
     text-align: center;
